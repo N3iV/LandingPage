@@ -26,7 +26,7 @@ sr.reveal(".animate-left", {
   origin: "left",
   duration: 1000,
   distance: "25rem",
-  delay: 600,
+  delay: 300,
 });
 sr.reveal(".animate-right", {
   origin: "right",
@@ -58,4 +58,10 @@ sr.reveal(".animate-bottom-900", {
   duration: 1000,
   distance: "25rem",
   delay: 900,
+});
+sr.reveal(".animate-bottom-1500", {
+  origin: "bottom",
+  duration: 1000,
+  distance: "25rem",
+  delay: 1500,
 });
