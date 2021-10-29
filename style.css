@@ -78,8 +78,7 @@ li {
 /* ------NAV---- */
 #nav {
   background: var(--white-color);
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
-    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   position: fixed;
   width: 100%;
   z-index: 99;
@@ -109,8 +108,11 @@ li {
 
 /* ------HOME------ */
 #home {
+  margin-top: -0.5rem;
+  background: linear-gradient(180deg, #d2def5, rgba(233, 240, 255, 0));
 }
 .home {
+  padding-top: 10rem;
   justify-content: space-between;
 }
 .home-title {
@@ -146,6 +148,7 @@ li {
 /* ---------About------- */
 
 .about-title {
+  margin-top: 8rem;
   display: inline-block;
   font-size: 1.8rem;
   font-weight: 700;
@@ -176,11 +179,11 @@ li {
   padding: 2rem;
   text-align: center;
   width: calc(100% / 3 - 4rem);
+  background: var(--white-color);
 }
 
 /* ----------download  --------- */
 #download {
-  background: linear-gradient(180deg, #d2def5, rgba(233, 240, 255, 0));
 }
 .download {
   justify-content: space-between;
@@ -195,6 +198,9 @@ li {
 .download-right p {
   margin: 2rem 0;
 }
+
+/* -------footer-------- */
+
 /* Animate */
 @keyframes upFade {
   0% {
