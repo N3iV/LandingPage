@@ -6,7 +6,7 @@
   scroll-behavior: smooth;
 }
 :root {
-  --primary-color: #012d6b;
+  --primary-color: #003c8f;
   --secondary-color: #5e92f3;
   --light-color: #5e92f34d;
   --white-color: #fff;
@@ -179,6 +179,9 @@ li {
 }
 
 /* ----------download  --------- */
+#download {
+  background: linear-gradient(180deg, #d2def5, rgba(233, 240, 255, 0));
+}
 .download {
   justify-content: space-between;
 }
