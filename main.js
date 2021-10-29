@@ -2,7 +2,7 @@ function navActive() {
   window.addEventListener("scroll", () => {
     const pos = window.pageYOffset;
     document.querySelectorAll("section").forEach((section) => {
-      const top = section.offsetTop - 150;
+      const top = section.offsetTop - 250;
       const bottom = top + section.offsetHeight;
       if (top <= pos && pos < bottom) {
         document
